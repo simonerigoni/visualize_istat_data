@@ -37,6 +37,8 @@ Italy has -0.53% people in 2019 compared to 2015 and the effect is more relevant
 
 Lombardia is the only region with an increase of people in recent years
 
+Results are better explained in this [blog post](https://medium.com/@simone.rigoni01/visualize-istat-data-with-microsoft-power-bi-faef3594c155)
+
 ## Licensing and Acknowledgements
 
 Thank you [ISTAT](https://medium.com/r/?url=https%3A%2F%2Fwww.istat.it%2F) for the datasets and more information about the licensing of the data can be found on their web sites
