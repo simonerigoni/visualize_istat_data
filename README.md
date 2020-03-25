@@ -21,7 +21,7 @@ The Jupyter Notebook `data_preparation.ipynb` contains all the steps needed to r
 
 ![Flowchart](images/flowchart.png)
 
-Then [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) has been used to visualize data
+Then [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) `italy_population.pbix` has been used to visualize data
 
 Flowchart made using [draw.io](https://about.draw.io/)
 
