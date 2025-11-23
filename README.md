@@ -9,6 +9,10 @@ The goal is to get some insights about the regional distribution of population i
 
 This project uses Python 3.8.2 for the data preparation
 
+## Local configuration
+
+
+
 ## Data
 
 Have a look at the `data` folder and its [DATA.md](data/DATA.md) file.
