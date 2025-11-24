@@ -2,16 +2,22 @@
 
 ## Introduction
 
-The goal is to get some insights about the regional distribution of population in Italy and how it is changed by year
-
+The goal is to get some insights about the regional distribution of population in Italy and how it is changed by year.
 
 ## Software and Libraries
 
-This project uses Python 3.8.2 for the data preparation
+This project uses Python 3.11 for the data preparation.
 
 ## Local configuration
 
+To setup a new local enviroment and install all dependencies you can run `.\my_scripts\Set-Up.ps1`. It will install:
+* [Python](https://www.python.org/)
+* [uv](https://docs.astral.sh/uv/)
+* [Pre-commit](https://pre-commit.com/)
 
+Pre-commit is a framework for managing and maintaining multi-language pre-commit hooks. A pre-commit hook is a script that runs before a commit operation in a version control system. This allows to shift left code quality checks and remediations. You can change the hooks by updateing the file `.pre-commit-config.yaml`.
+
+To trigger the pre-commit hooks without an actual commit you can run `pre-commit run --all-files -v`.
 
 ## Data
 
@@ -23,31 +29,29 @@ No test implemented.
 
 ## Running the code
 
-The Jupyter Notebook `data_preparation.ipynb` contains all the steps needed to rebuild the location dimension: State - Geographic Area - Macro Region - Region - Province - Comune
+The Jupyter Notebook `data_preparation.ipynb` contains all the steps needed to rebuild the location dimension: State - Geographic Area - Macro Region - Region - Province - Comune.
 
 ![Flowchart](images/flowchart.png)
 
-Then [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) `italy_population.pbix` has been used to visualize data
+Then [Microsoft Power BI](https://powerbi.microsoft.com/en-us/) `italy_population.pbix` has been used to visualize data.
 
 Flowchart made using [draw.io](https://about.draw.io/)
 
 ## Results
 
-All visualization in the report are enabled to drill up/down on the location dimension
+All visualization in the report are enabled to drill up/down on the location dimension.
 
 ![Flowchart](images/population_by_macro_region_year.png)
 
-Italy has -0.53% people in 2019 compared to 2015 and the effect is more relevant on south and the islands
+Italy has -0.53% people in 2019 compared to 2015 and the effect is more relevant on south and the islands.
 
 ![Flowchart](images/population_variation_region_year.png)
 
-Lombardia is the only region with an increase of people in recent years
-
-Results are better explained in this [blog post](https://medium.com/@simone.rigoni01/visualize-istat-data-with-microsoft-power-bi-faef3594c155)
+Lombardia is the only region with an increase of people in recent years.
 
 ## List of activities
 
-In the [TODO.d](TODO.md) file you can find the list of tasks and on going activities.
+In the [TODO.md](TODO.md) file you can find the list of tasks and on going activities.
 
 ## Licensing and acknowledgements
 
@@ -55,4 +59,4 @@ Have a look at [LICENSE.md](LICENSE.md) and thanks [ISTAT](https://medium.com/r/
 
 ## Outro
 
-I hope this repository was interesting and thank you for taking the time to check it out. On my Medium you can find a more in depth [story](https://medium.com/@simone-rigoni01/) and on my Blogspot you can find the same [post](https://simonerigoni01.blogspot.com/) in italian. Let me know if you have any question and if you like the content that I create feel free to [buy me a coffee](https://www.buymeacoffee.com/simonerigoni).
+I hope this repository was interesting and thank you for taking the time to check it out. On my Medium you can find a more in depth [story](https://medium.com/@simone-rigoni01/visualize-istat-data-with-microsoft-power-bi-faef3594c155) and on my Blogspot you can find the same [post](https://simonerigoni01.blogspot.com/) in italian. Let me know if you have any question and if you like the content that I create feel free to [buy me a coffee](https://www.buymeacoffee.com/simonerigoni).
