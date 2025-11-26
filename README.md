@@ -6,11 +6,12 @@ The goal is to get some insights about the regional distribution of population i
 
 ## Software and Libraries
 
-This project uses Python 3.11 for the data preparation.
+This project uses Python 3.11.
 
 ## Local configuration
 
 To setup a new local enviroment and install all dependencies you can run `.\my_scripts\Set-Up.ps1`. It will install:
+
 * [Python](https://www.python.org/)
 * [uv](https://docs.astral.sh/uv/)
 * [Pre-commit](https://pre-commit.com/)
