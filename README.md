@@ -6,7 +6,7 @@ The goal is to get some insights about the regional distribution of population i
 
 ## Software and Libraries
 
-This project uses Python 3.11.
+This project uses Python 3.14.
 
 ## Data
 
