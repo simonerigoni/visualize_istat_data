@@ -1,5 +1,7 @@
 # Visualize ISTAT data
 
+[![CI](https://github.com/simonerigoni/visualize_istat_data/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/simonerigoni/visualize_istat_data/actions/workflows/ci.yml?query=branch%3Amaster) [![License](https://img.shields.io/github/license/simonerigoni/visualize_istat_data)](LICENSE.md) [![Python](https://img.shields.io/badge/python-3.14-blue)](pyproject.toml) [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit) [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen?logo=renovatebot)](https://renovatebot.com)
+
 ## Introduction
 
 The goal is to get some insights about the regional distribution of population in Italy and how it is changed by year.
