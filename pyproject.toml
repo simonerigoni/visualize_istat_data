@@ -4,7 +4,15 @@ version = "0.1.0"
 description = "Visualize ISTAT population data with Microsoft Power BI"
 readme = "README.md"
 requires-python = ">=3.15"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE.md"]
+authors = [{ name = "Simone Rigoni" }]
 dependencies = []
+
+
+[project.urls]
+Repository = "https://github.com/simonerigoni/visualize_istat_data"
+Medium = "https://medium.com/analytics-vidhya/visualize-istat-data-with-microsoft-power-bi-faef3594c155"
 
 [dependency-groups]
 dev = [
