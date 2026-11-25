@@ -12,7 +12,7 @@ dependencies = []
 
 [project.urls]
 Repository = "https://github.com/simonerigoni/visualize_istat_data"
-Medium = "https://medium.com/analytics-vidhya/visualize-istat-data-with-microsoft-power-bi-faef3594c155"
+Medium = "https://medium.com/@simone-rigoni01/visualize-istat-data-with-microsoft-power-bi-faef3594c155"
 
 [dependency-groups]
 dev = [
